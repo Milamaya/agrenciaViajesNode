@@ -1,0 +1,41 @@
+extends ./layout/index
+
+block slider 
+    .slider 
+        h1 Rio de Janeiro 
+        em aventura
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5 
+            .col-md-6
+                p Eu exercitation laborum in ipsum eu. Consequat qui anim proident reprehenderit nisi cupidatat do excepteur laborum cupidatat. Duis pariatur enim do magna elit.
+                p Ullamco tempor ea labore anim magna Lorem dolore cupidatat id laboris. Sint fugiat Lorem magna incididunt tempor laboris culpa cupidatat adipisicing voluptate sit. Ullamco deserunt est duis velit excepteur et. Elit incididunt reprehenderit quis magna elit duis nostrud amet reprehenderit Lorem incididunt deserunt minim.
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+        include ./layout/bloque_viajes
+    .descuento 
+        .container
+            .row 
+                .col-md-6
+                    .contenido 
+                        h3 5% de Descuento 
+                        p.titulo Viaje a Canada 
+                        p.fecha 20 de Marzo de 2027 - 28 de Marzo de 2027 
+                        p.precio $2,500 USD
+    .container 
+        h2.mt-5-text-center Testimoniales
+        include ./layout/testimonios_inicio           
+    
+           
+            
+            
+    
+
+
+
+
+//- <h1>Hola</h1>
+//- h1 Agencia de Viajes 
+//- p= viajes
+//- p #{viajes}
